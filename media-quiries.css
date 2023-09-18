@@ -1,0 +1,248 @@
+@media screen and(max-width:1440px) {
+    .cont-box{
+        padding: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:1024px){
+    /* service section  */
+    .serv-1-big-box, .serv-2-big-box,.serv-2-big-box,.serv-3-big-box,.serv-4-big-box{
+        width: 16rem;
+        height: 16rem;
+    }
+    /* skill section  */
+    .skill-big-box{
+        width: 16rem;
+        height: 16rem;
+    }
+    /* Recent work  */
+    .main-box{
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+    }
+
+    /* contact me  */
+    .cont-main-box{
+        padding: 2rem 4rem 2rem 4rem;
+    }
+    .cont-box{
+        padding: 1rem;
+        gap: 1rem;
+    }
+    input{
+        width: 15rem;
+        height: 3.5rem;    
+    }
+    textarea{
+        max-width:92%;
+    }
+} 
+
+
+
+
+@media screen and (max-width:768px) {
+    .int-1{
+        margin-top: 12px;
+        font-size: medium;
+        margin-bottom: 8px;
+    }
+    .int-2{
+        font-size: larger;
+        line-height: 2.25rem;
+    }
+    .int-3{
+        margin-top: 1rem;
+        font-size: large;
+    }
+    .links-box{
+        gap: 2rem;
+    }
+    .links{
+        font-size: small;
+    }
+
+    /* about section  */
+
+    .outer-box{
+        /* height: 26rem; */    
+    }
+    .inner-box-1 p{
+        font-size: 1.75rem;
+    }
+    .inner-box-2{
+        font-size: small;
+    }
+    .inner-box-3{
+        width: 10rem;
+        height: 10rem;
+    }
+    .mini-box{
+        width: 8rem;
+        height: 8rem;
+    }
+    .para{
+        font-size: small;
+        font-weight: 600;
+    }
+    .num{
+        font-size: 4rem;
+    }
+    .inner-box-4{
+        font-size: small;
+    }
+
+    /* services section  */
+    .serv-1-big-box, .serv-2-big-box,.serv-2-big-box,.serv-3-big-box,.serv-4-big-box{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /* recent works  */
+    .rec-main-box{
+        padding: 1rem 3rem 1rem 3rem;
+    }
+    .rec-cont-box{
+        gap: 2rem;
+    }
+    .rec-outr-box,.rec-mini-box{
+        height: 10rem;
+    }
+    .p3{
+        padding: 0.75rem;
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 700;
+
+    }
+    .p3 span{
+        font-size: 0.75rem;
+
+    }
+    .p3 a{
+        font-size: 0.5rem;
+        /* padding: 0.5rem; */
+    }
+     
+    /* skill section  */
+    .skill-big-box{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /* contact me  */
+    .btn{
+        font-size: 1rem;
+        width: 33%;
+    }
+    .btn img{
+        width: 2.75rem;
+        height: 2.75rem;   
+    }
+    textarea{
+        width: 15rem;
+    }
+     /* footer section  */
+     footer div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     }
+}
+
+
+
+@media screen and (max-width:425px) {
+
+.my-img{
+    position: absolute;
+    height: 15rem;
+    bottom: 0px;
+    left: 144px;
+}
+    .nav-bar{
+        width: 90%;
+    }
+    .links-box{
+        width: 95%;
+        justify-content: space-evenly;
+    }
+    .nav-img{
+        display: block;
+    }
+    .nav-text{
+        display: none;
+    }
+
+/* About Me  */
+.outer-box{
+    height: fit-content;
+    flex-direction: column;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.inner-box-1,.inner-box-2,.inner-box-4{
+    width: 90%;
+    gap: 2rem;
+    height: fit-content;
+}
+
+/* download and hire section  */
+.down-box{
+flex-direction: column;
+height: fit-content;
+padding: 2rem;
+}
+
+/* services section  */
+.serv-main-box{
+    padding-top: 0.75rem;
+    font-size: medium;
+}
+
+/* recent works  */
+.p1 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 600;
+    width: 90%;
+}
+.p2{
+    text-align: center;
+    font-size: 2.5rem;
+    width: 90%;
+}
+.rec-main-box{
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+.rec-cont-box{
+    grid-column: 1;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-auto-flow: row;
+}
+/* skills section  */
+
+
+ /* contact me  */
+ .cont-main-box{
+    padding: 1rem;
+}
+form{
+    padding: 0.5rem;
+}
+.btn-txt{
+    display: none;
+}
+.btn{
+    width: fit-content;
+    padding: 0.5rem;
+}
+textarea{
+    width: 15rem;
+}
+
+}
